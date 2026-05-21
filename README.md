@@ -19,7 +19,7 @@
 ## 🛰️ `KENDAL Lab` // Terminal Overview
 
 > [!NOTE]
-> Ingeniero en Sistemas y arquitecto de software. Mi núcleo de desarrollo opera en la convergencia exacta entre la Realidad Extendida (VR/AR) y Cloud Computing. Diseñando ecosistemas escalables, interfaces inmersivas e infraestructura en la nube con la precisión y latencia requeridas por estándares internacionales.
+> Ingeniero en Sistemas. Mi núcleo de desarrollo opera en la convergencia exacta entre la Realidad Extendida (VR/AR) y Cloud Computing. Diseñando ecosistemas escalables, interfaces inmersivas e infraestructura en la nube con la precisión y latencia requeridas por estándares internacionales.
 
 - 🔭 **Directiva Actual:** Desarrollando **Sendero AR** en Unity 2022.3 LTS e iterando arquitecturas Cloud con Terraform.
 - 🎯 **Horizonte Futuro:** Ingeniería XR de alto impacto corporativo // Desarrollando experiencias inmersivas a nivel Sword Art Online (SAO).
