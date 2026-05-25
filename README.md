@@ -21,7 +21,8 @@
 > [!NOTE]
 > Ingeniero en Sistemas. Mi núcleo de desarrollo opera en la convergencia exacta entre la Realidad Extendida (VR/AR) y Cloud Computing. Diseñando ecosistemas escalables, interfaces inmersivas e infraestructura en la nube con la precisión y latencia requeridas por estándares internacionales.
 
-- 🔭 **Directiva Actual:** Desarrollando **Sendero AR** en Unity 2022.3 LTS e iterando arquitecturas Cloud con Terraform.
+- 🔭 **Directiva Actual:** Desarrollando **Sendero AR** en Unity 2022.3 LTS arquitectura de sesiones AR estabilizada, pipeline de build en dispositivo 
+validado. Iterando arquitecturas Cloud con Terraform.
 - 🎯 **Horizonte Futuro:** Ingeniería XR de alto impacto corporativo // Desarrollando experiencias inmersivas a nivel Sword Art Online (SAO).
 - ⚡ **Flow de Trabajo:** *Dark Cinematic* impulsado por música ambiente, Lana del Rey, Arctic Monkeys y concentración absoluta en la madrugada (*caos controlado*).
 - 🏔️ **Base Operativa:** LatAm ➔ 🇨🇭
