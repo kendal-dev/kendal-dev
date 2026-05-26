@@ -6,7 +6,7 @@
 
 <div align="center">
   <blockquote>
-    <b>"La Creación nace de la Calma y el Orden."</b>
+    <b>"La Creación nace de Calma y el Orden."</b>
   </blockquote>
 </div>
 
