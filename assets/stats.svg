@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 190" width="430" height="190" role="img" aria-label="GitHub stats: 566 contributions in the last year">
+  <style>
+    .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .m { font-family: ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .in { opacity: 0; animation: in .7s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; stroke-dasharray: none !important } }
+    .ring { stroke-dasharray: 0 302; animation: ring 1.6s ease-out .2s forwards; }
+    @keyframes ring { to { stroke-dasharray: 302 302 } }
+    .spin { transform-origin: 90px 100px; animation: spin 10s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+  </style>
+  <rect x=".5" y=".5" width="429" height="189" rx="16" fill="#05070c" stroke="#70a5fd" stroke-opacity=".3"/>
+  <text x="24" y="30" class="m" font-size="11" fill="#70a5fd" letter-spacing="2">GITHUB · LAST 12 MONTHS</text>
+  <circle cx="90" cy="100" r="48" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="8"/>
+  <circle class="ring" cx="90" cy="100" r="48" fill="none" stroke="#70a5fd" stroke-width="8" stroke-linecap="round" transform="rotate(-90 90 100)"/>
+  <g class="spin"><circle cx="90" cy="48" r="4" fill="#e8f0ff"/></g>
+  <text x="90" y="104" text-anchor="middle" class="m" font-size="24" font-weight="700" fill="#ffffff">566</text>
+  <text x="90" y="122" text-anchor="middle" class="t" font-size="11" fill="#9ebeff">contributions</text>
+    <g class="in" style="animation-delay:0.3s">
+      <text x="190" y="62" class="m" font-size="22" font-weight="700" fill="#ffffff">556</text>
+      <text x="190" y="79" class="t" font-size="11" fill="#9ebeff">Commits</text></g>
+    <g class="in" style="animation-delay:0.42s">
+      <text x="310" y="62" class="m" font-size="22" font-weight="700" fill="#ffffff">2</text>
+      <text x="310" y="79" class="t" font-size="11" fill="#9ebeff">Pull requests</text></g>
+    <g class="in" style="animation-delay:0.54s">
+      <text x="190" y="112" class="m" font-size="22" font-weight="700" fill="#ffffff">0</text>
+      <text x="190" y="129" class="t" font-size="11" fill="#9ebeff">Issues</text></g>
+    <g class="in" style="animation-delay:0.6599999999999999s">
+      <text x="310" y="112" class="m" font-size="22" font-weight="700" fill="#ffffff">7</text>
+      <text x="310" y="129" class="t" font-size="11" fill="#9ebeff">Public repos</text></g>
+    <g class="in" style="animation-delay:0.78s">
+      <text x="190" y="162" class="m" font-size="22" font-weight="700" fill="#ffffff">4</text>
+      <text x="190" y="179" class="t" font-size="11" fill="#9ebeff">Stars</text></g>
+    <g class="in" style="animation-delay:0.8999999999999999s">
+      <text x="310" y="162" class="m" font-size="22" font-weight="700" fill="#ffffff">1</text>
+      <text x="310" y="179" class="t" font-size="11" fill="#9ebeff">Followers</text></g>
+</svg>

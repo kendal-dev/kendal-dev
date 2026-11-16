@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 40" width="150" height="40" role="img" aria-label="LinkedIn">
+  <style>
+    .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .edge { animation: edge 3s ease-in-out infinite; }
+    @keyframes edge { 50% { stroke-opacity: .9 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+  </style>
+  <rect x="1" y="1" width="148" height="38" rx="19" fill="#05070c"/>
+  <rect class="edge" x="1" y="1" width="148" height="38" rx="19" fill="none" stroke="#70a5fd" stroke-opacity=".4" stroke-width="1.5"/>
+  <rect x="16" y="10" width="20" height="20" rx="4" fill="#70a5fd"/>
+  <text x="26" y="25" text-anchor="middle" class="t" font-size="13" font-weight="800" fill="#05070c">in</text>
+  <text x="46" y="25" class="t" font-size="13" font-weight="600" fill="#e8f0ff" letter-spacing="1">LinkedIn</text>
+</svg>

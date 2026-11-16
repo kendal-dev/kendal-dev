@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150" role="img" aria-label="How I work: offline first, failures published, measured and reproducible">
+  <defs>
+    <clipPath id="card"><rect width="880" height="150" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .m { font-family: ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .pop { opacity: 0; animation: pop .7s ease-out forwards; }
+    .p2 { animation-delay: .3s } .p3 { animation-delay: .6s }
+    @keyframes pop { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+    .bar { transform-box: fill-box; transform-origin: bottom; animation: bar 3s ease-in-out infinite; }
+    .b2 { animation-delay: .3s } .b3 { animation-delay: .6s }
+    @keyframes bar { 50% { transform: scaleY(.55) } }
+    .glow { animation: glow 2.4s ease-in-out infinite; }
+    @keyframes glow { 50% { stroke-opacity: .25 } }
+    .tick { stroke-dasharray: 30; stroke-dashoffset: 30; animation: tick 3s ease-out infinite; }
+    @keyframes tick { 0%,20% { stroke-dashoffset: 30 } 45%,100% { stroke-dashoffset: 0 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important } }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="880" height="150" fill="#05070c"/>
+    <g class="t" text-anchor="middle">
+      <!-- offline first -->
+      <g class="pop">
+        <circle class="glow" cx="147" cy="58" r="30" fill="none" stroke="#70a5fd" stroke-width="2"/>
+        <rect x="133" y="44" width="28" height="28" rx="6" fill="none" stroke="#e8f0ff" stroke-width="2"/>
+        <path d="M140 44 v-5 M154 44 v-5 M140 72 v5 M154 72 v5 M133 51 h-5 M133 65 h-5 M161 51 h5 M161 65 h5" stroke="#e8f0ff" stroke-width="2"/>
+        <text x="147" y="114" font-size="16" font-weight="700" fill="#ffffff">Runs on the device</text>
+        <text x="147" y="134" class="m" font-size="11" fill="#9ebeff">no cloud, no signal needed</text>
+      </g>
+      <!-- failures published -->
+      <g class="pop p2">
+        <circle class="glow" cx="440" cy="58" r="30" fill="none" stroke="#ffb547" stroke-width="2"/>
+        <path class="tick" d="M424 58 l10 10 l20 -22" fill="none" stroke="#3ddc97" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M452 64 l8 8 M460 64 l-8 8" stroke="#ff5c5c" stroke-width="2.5" stroke-linecap="round"/>
+        <text x="440" y="114" font-size="16" font-weight="700" fill="#ffffff">Failures published</text>
+        <text x="440" y="134" class="m" font-size="11" fill="#9ebeff">not just the wins</text>
+      </g>
+      <!-- measured -->
+      <g class="pop p3">
+        <circle class="glow" cx="733" cy="58" r="30" fill="none" stroke="#3ddc97" stroke-width="2"/>
+        <g fill="#3ddc97">
+          <rect class="bar"    x="718" y="48" width="7" height="22" rx="2"/>
+          <rect class="bar b2" x="730" y="40" width="7" height="30" rx="2"/>
+          <rect class="bar b3" x="742" y="54" width="7" height="16" rx="2"/>
+        </g>
+        <text x="733" y="114" font-size="16" font-weight="700" fill="#ffffff">Measured, reproducible</text>
+        <text x="733" y="134" class="m" font-size="11" fill="#9ebeff">hardware · latency · accuracy</text>
+      </g>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="879" height="149" rx="18" fill="none" stroke="#70a5fd" stroke-opacity=".25"/>
+</svg>
