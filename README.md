@@ -61,3 +61,5 @@ const kendalVR = {
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:70a5fd,50:1c3f73,100:000000&height=140&section=footer&text=Stay%20calm%20and%20keep%20building&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=72" width="100%" alt="Stay calm and keep building">
 
 </div>
+
+<!-- README revisado: 2026-11-16 -->
