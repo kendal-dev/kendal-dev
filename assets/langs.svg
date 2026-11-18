@@ -10,11 +10,11 @@
   <text x="24" y="30" class="m" font-size="11" fill="#70a5fd" letter-spacing="2">TOP LANGUAGES · PUBLIC REPOS</text>
   <rect x="24" y="48" width="382" height="12" rx="6" fill="#ffffff" fill-opacity=".07"/>
   <g clip-path="url(#bar)">
-  <rect x="24.0" y="48" width="188.5" height="12" fill="#7355dd" class="in" style="animation-delay:0.2s"/>
-  <rect x="212.5" y="48" width="70.0" height="12" fill="#3572A5" class="in" style="animation-delay:0.30000000000000004s"/>
-  <rect x="282.5" y="48" width="46.2" height="12" fill="#3178c6" class="in" style="animation-delay:0.4s"/>
-  <rect x="328.7" y="48" width="36.4" height="12" fill="#f1e05a" class="in" style="animation-delay:0.5s"/>
-  <rect x="365.1" y="48" width="24.1" height="12" fill="#663399" class="in" style="animation-delay:0.6000000000000001s"/>
+  <rect x="24.0" y="48" width="188.2" height="12" fill="#7355dd" class="in" style="animation-delay:0.2s"/>
+  <rect x="212.2" y="48" width="69.9" height="12" fill="#3572A5" class="in" style="animation-delay:0.30000000000000004s"/>
+  <rect x="282.1" y="48" width="46.2" height="12" fill="#3178c6" class="in" style="animation-delay:0.4s"/>
+  <rect x="328.3" y="48" width="36.9" height="12" fill="#f1e05a" class="in" style="animation-delay:0.5s"/>
+  <rect x="365.2" y="48" width="24.1" height="12" fill="#663399" class="in" style="animation-delay:0.6000000000000001s"/>
   <rect x="389.3" y="48" width="10.1" height="12" fill="#e34c26" class="in" style="animation-delay:0.7s"/>
   </g>
   <g class="in" style="animation-delay:0.6s">
@@ -32,7 +32,7 @@
   <g class="in" style="animation-delay:0.9s">
     <circle cx="230" cy="118" r="6" fill="#f1e05a"/>
     <text x="244" y="122" class="t" font-size="13" fill="#e8f0ff">JavaScript</text>
-    <text x="400" y="122" text-anchor="end" class="m" font-size="12" fill="#9ebeff">9.5%</text></g>
+    <text x="400" y="122" text-anchor="end" class="m" font-size="12" fill="#9ebeff">9.7%</text></g>
   <g class="in" style="animation-delay:1s">
     <circle cx="30" cy="148" r="6" fill="#663399"/>
     <text x="44" y="152" class="t" font-size="13" fill="#e8f0ff">CSS</text>
